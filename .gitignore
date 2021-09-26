@@ -1,6 +1,6 @@
 .idea
-4.csv
 output
 src/api_requests/__pycache__
 src/subject/__pycache__
 src/utils/__pycache__
+*.csv
