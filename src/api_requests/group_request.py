@@ -1,4 +1,5 @@
 import json
+import time
 from urllib import request as r
 
 
@@ -39,6 +40,7 @@ class GroupRequest():
         data = json.dumps(data)
         data = data.encode()
         while True:
+            time.sleep(10)
             req = r.Request(self.base_url + "status", method="GET")
             req.add_header("Content-Type", "application/json")
             req.add_header("accept", "application/json")
