@@ -1,5 +1,6 @@
 .idea
 output
+in
 src/api_requests/__pycache__
 src/subject/__pycache__
 src/utils/__pycache__
