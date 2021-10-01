@@ -37,7 +37,7 @@
 3. Запуск через терминал:
 
 ```
-<work dir>\python3 main.py
+<work dir>\python main.py
 ```
 ```
 Enter api key: [Ваш api-ключ]
